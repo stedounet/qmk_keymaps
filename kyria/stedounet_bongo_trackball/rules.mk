@@ -1,9 +1,10 @@
 OLED_DRIVER_ENABLE = yes   # Enables the use of OLED displays
 ENCODER_ENABLE = no       # ENables the use of one or more encoders
-RGBLIGHT_ENABLE = no      # Enable keyboard RGB underglow
-COMBO_ENABLE = yes
+RGBLIGHT_ENABLE = yes      # Enable keyboard RGB underglow
+COMBO_ENABLE = no
 WPM_ENABLE = yes
 MOUSEKEY_ENABLE = yes
+BOOTMAGIC_ENABLE = lite
 PIMORONI_TRACKBALL_ENABLE = yes
 
 ifeq ($(strip $(PIMORONI_TRACKBALL_ENABLE)), yes)
@@ -16,7 +17,6 @@ endif
 TAP_DANCE_ENABLE = no
 COMMAND_ENABLE = NO
 STENO_ENABLE = no
-BOOTMAGIC_ENABLE =no
 TERMINAL_ENABLE = no
 GRAVE_ESC_ENABLE = no
 MAGIC_ENABLE = no

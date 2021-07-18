@@ -21,7 +21,6 @@
 #endif
 
 #ifdef RGBLIGHT_ENABLE
-  #define RGBLIGHT_ANIMATIONS
   #define RGBLIGHT_HUE_STEP 8
   #define RGBLIGHT_SAT_STEP 8
   #define RGBLIGHT_VAL_STEP 8
@@ -31,9 +30,8 @@
 // If you are using an Elite C rev3 on the slave side, uncomment the lines below:
 // #define SPLIT_USB_DETECT
 // #define NO_USB_STARTUP_CHECK
-//#define EE_HANDS
+#define EE_HANDS
 
-#define MASTER_RIGHT
 #define PIMORONI_TRACKBALL_INVERT_Y 
 #define PIMORONI_TRACKBALL_INVERT_X  
 
